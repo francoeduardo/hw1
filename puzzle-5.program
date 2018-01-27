@@ -1,0 +1,17 @@
+function move {
+	if (getColor == “blue”) {
+		down
+		}
+	if (get Color == “pink”) {
+		up
+		}
+	right
+	right
+	}
+
+right
+right
+move
+move
+move
+right
