@@ -1,0 +1,29 @@
+function draw {
+	setColor = black
+	}
+
+down
+down
+down
+right
+right
+right
+draw
+right
+draw
+right
+draw
+right
+draw
+down
+draw
+down
+draw
+left
+draw
+left
+draw
+left
+draw
+up
+draw
