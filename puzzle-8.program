@@ -1,0 +1,32 @@
+function sevenDown {
+	down
+	down
+	down
+	down
+	down
+	down
+	down
+	right
+	}
+
+function sevenUp {
+	up
+	up
+	up
+	up
+	up
+	up
+	up
+	right
+	}
+
+down
+sevenDown
+right
+sevenUp
+right
+sevenDown
+right
+sevenUp
+right
+sevenDown
