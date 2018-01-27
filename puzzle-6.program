@@ -1,0 +1,24 @@
+right
+var direction = getColor
+if (direction == “pink”) {
+	up
+	up
+	up
+	}
+if (direction == “blue”) {
+	down
+	down
+	down
+	}
+if (getColor == “pink”) {
+	left
+	}
+if (getColor == “blue”) {
+	right
+	}
+if (direction == “blue”) {
+	down
+	}
+if (direction == “pink”) {
+	up
+	}
