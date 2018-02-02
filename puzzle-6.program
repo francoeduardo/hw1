@@ -1,24 +1,24 @@
-right
-var direction = getColor
-if (direction == “pink”) {
-	up
-	up
-	up
+right();
+var direction = getColor();
+if (direction == "red") {
+	up();
+	up();
+	up();
 	}
-if (direction == “blue”) {
-	down
-	down
-	down
+if (direction == "blue") {
+	down();
+	down();
+	down();
 	}
-if (getColor == “pink”) {
-	left
+if (getColor() == "red") {
+	left();
 	}
-if (getColor == “blue”) {
-	right
+if (getColor() == "blue") {
+	right();
 	}
-if (direction == “blue”) {
-	down
+if (direction == "blue") {
+	down();
 	}
-if (direction == “pink”) {
-	up
+if (direction == "red") {
+	up();
 	}
