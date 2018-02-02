@@ -1,17 +1,17 @@
-function door {
-	var color = getColor
-	down
-	setColor (color)
-	right
-	right
-	}
+function door () {
+var color = getColor();
+down();
+setColor (color);
+right();
+right();
+}
 
-down
-down
-down
-down
-right
-door
-up
-right
-door
+down();
+down();
+down();
+down();
+right();
+door();
+up();
+right();
+door();
