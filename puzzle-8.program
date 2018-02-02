@@ -1,32 +1,21 @@
-function sevenDown {
-	down
-	down
-	down
-	down
-	down
-	down
-	down
-	right
+function dwn(x) {
+	while (x >= 0) {
+  	down();
+  	x=x-1}
+  right();
+  right();
+  }
+
+function upp(x) {
+	while (x >= 0) {
+    up();
+    x=x-1}
+  right();
+  right();
 	}
 
-function sevenUp {
-	up
-	up
-	up
-	up
-	up
-	up
-	up
-	right
-	}
-
-down
-sevenDown
-right
-sevenUp
-right
-sevenDown
-right
-sevenUp
-right
-sevenDown
+dwn(7);
+upp(6);
+dwn(6);
+upp(6);
+dwn(6);
