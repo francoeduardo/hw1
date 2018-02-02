@@ -1,29 +1,32 @@
-function draw {
-	setColor = black
+function drawRight(x) {
+  while (x>=0) {
+		setColor ("red");
+  	right();
+    x=x-1}
 	}
 
-down
-down
-down
-right
-right
-right
-draw
-right
-draw
-right
-draw
-right
-draw
-down
-draw
-down
-draw
-left
-draw
-left
-draw
-left
-draw
-up
-draw
+function drawDown (x) {
+  while (x>=0) {
+    setColor ("red");
+    down();
+    x=x-1}
+}
+
+function drawLeft (x) {
+  while (x>=0) {
+    setColor ("red");
+    left();
+    x=x-1}
+}
+
+function drawUp (x) {
+  while (x>=0) {
+    setColor ("red");
+    up();
+    x=x-1}
+}
+
+drawRight(70);
+drawDown(50);
+drawLeft(70);
+drawUp(50);
